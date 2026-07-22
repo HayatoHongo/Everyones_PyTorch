@@ -1,7 +1,10 @@
 次の【対象となるクラスや関数】の1つの大きなコードセルを
 「教育向けの小さなJupyterセル」に分割してください。
 
-分割ルール:
+# 特殊ルール（このプロンプトがそのまま使えない場合は、ここに特殊ルールを追加する。全体のプロンプト自体を書き換えると工数が急増するので避ける。）
+特になし
+
+# 分割ルール:
 1) インデントを発生させるような def/class/if/for/while/with/try はコードとして書かない。
 - Markdownセルの見出しに変換する。
 - class/defは ### 3つの小見出しにする。それ以外の if elseなどは #### 4つの小見出しにする。
@@ -90,6 +93,7 @@ cosine_decay_ratio = 0.5 * (1.0 + cosine_decay_value)
 learning_rate_range = max_learning_rate - min_learning_rate
 
 learning_rate = min_learning_rate + cosine_decay_ratio * learning_rate_range
+
 
 
 ```markdown
