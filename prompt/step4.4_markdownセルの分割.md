@@ -1,4 +1,4 @@
-B.7 Markdownセルが長すぎないか
+Markdownセルが長すぎないか
 
 Notebook全体を確認し、長すぎるMarkdownセルや、Markdownセルが連続している箇所を修正する。
 特にSection冒頭のmarkdownセルに着目する。
