@@ -7,6 +7,7 @@ matplotlibを用いれば図を作成できるものを探す。
 matplotlibを用いて、作成した図を、markdownセルとして適切な位置に挿入する。
 matplotlibのコード自体は必要ない。
 
+
 - 国際化を意識する
 - 日本語のキャプションは避ける。文字化けするから。
 - 英語のキャプションもなるべく記号メインにしたり、簡単な英単語に寄せてたりする。
@@ -14,4 +15,7 @@ matplotlibのコード自体は必要ない。
 ローカルで図を作成したら、colabでもレンダリングできるように、Github上に画像だけをpushして。
 それ以外はコンフリクトが発生するのでpushしない。
 
-markdownセルに図を挿入する際については、github上のリンクを用いてください
+markdownセルに図を挿入する際については、github上のリモートのURLリンクを用いてください
+
+例:
+![cross entropy overview](https://raw.githubusercontent.com/HayatoHongo/Everyones_PyTorch/main/ColabGPT/images/chapter09-cross-entropy-overview.png)
