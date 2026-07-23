@@ -5,6 +5,7 @@
 図を挿入したい。
 matplotlibを用いれば図を作成できるものを探す。
 matplotlibを用いて、作成した図を、markdownセルとして適切な位置に挿入する。
+
 matplotlibのコード自体は必要ない。
 
 
