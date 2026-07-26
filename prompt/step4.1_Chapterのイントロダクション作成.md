@@ -1,5 +1,8 @@
 チャプター番号について、ファイル名を参考にしながら、タイトルとして一番先頭につける。
-また、ファイル全体の解説（イントロダクションを行う。）
+
+また、コードセルの中に、NEWやDELETEで、前回との差分を可視化したコードセルがあるので、
+これを参考にして、ファイル全体の解説（イントロダクションを行う。）
+
 
 例: ファイル名 ColabGPT_Chapter09_交差エントロピー.ipynb
 
@@ -24,5 +27,71 @@
 では、確率分布どうしのずれを、どのように数値で表せばよいのでしょうか？
 
 Chapter 9では、このずれを定量化するための指標である、交差エントロピーを紹介します。
+
+---
+
+参照したコードセル
+
+```python
+# 勾配の式を自分で書くのをやめて、PyTorchに自動計算してもらう
+# loss.backward() の登場！
+import torch
+
+data = torch.load("mnist_7x7_shuffled.pt")
+X = data["X"]
+Y = data["Y"]
+
+########## NEW ##########
+# requires_grad=True にすると、PyTorchがWの勾配を追跡してくれる
+W = torch.zeros(49, 10, requires_grad=True)
+########## NEW ##########
+"""DELETE
+W = torch.zeros(49, 10)
+"""
+
+lr = 1.0
+
+num_epochs = 1000
+for epoch in range(num_epochs):
+
+    # 予測する
+    Y_pred = X @ W
+
+    # 損失を計算する
+    Y_prob = torch.softmax(Y_pred, dim=1)
+    loss = torch.mean(torch.sum(-Y * torch.log(Y_prob), dim=1))
+
+    ########## NEW ##########
+    # 勾配をすべて None でリセット
+    # この処理は毎回必要
+    W.grad = None
+    ########## NEW ##########
+
+    ########## NEW ##########
+    # 勾配計算を自分で書く代わりに、
+    # lossから逆向きにたどって勾配を自動計算してもらう
+    # 結果は W.grad に入る
+    loss.backward()
+    ########## NEW ##########
+
+    """DELETE
+    Total_grad = X.T @ (Y_prob - Y)
+    Mean_grad = Total_grad / 1000
+    """
+
+    ########## NEW ##########
+    # 重みを更新する
+    # （勾配の追跡を一時停止して、Wの値だけを書き換える）
+    with torch.no_grad():
+        W -= lr * W.grad
+    ########## NEW ##########
+
+    """DELETE
+    # 重みを更新する
+    W = W - lr * Mean_grad
+    """
+
+    print("epoch", epoch, "loss", loss)
+```
 
 
