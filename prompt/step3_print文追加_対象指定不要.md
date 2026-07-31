@@ -3,9 +3,20 @@
 ルール:
 - そのセルで新しく計算されたスカラー/テンソル/配列/変数があるなら print する
 - テンソルなら print_formatted_tensor(“x”, x) を使う
+- テンソルでも、次元がなくてスカラーなら、print("x", x) を使うs
 - スカラー/配列/変数なら、print(“x”, x) を使う
 - x=10 のような、明らかな文はそのまま
 - x = config.x のような、少しわかりづらい定義文にはprint文を適用する
+- `x.item()` のように、表示のためだけに要素を取り出す処理は極力避ける。表示結果の綺麗さよりも、コード自体の分かりやすさを優先する。
+
+print_formatted_tensor　を用いる場合、import torchのすぐ後に、以下のコードセルを作成して
+
+```python
+# テンソルを見やすく表示するライブラリをインストール
+!pip install git+https://github.com/HayatoHongo/print_formatted_tensor.git
+# PyTorchのテンソルを見やすく表示する関数をインポート
+from torch_print_tensor import print_formatted_tensor
+```
 
 # 例
 

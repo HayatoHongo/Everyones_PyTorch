@@ -1,7 +1,10 @@
-Step3で作成したコードセルについて
+作成したコードセルについて
 markdown形式の解説
 コード穴埋め問題
 を作成してください。
+
+### 特殊ルール（このプロンプトがそのまま使えない場合は、ここに特殊ルールを追加する。全体のプロンプト自体を書き換えると工数が急増するので避ける。）
+今回は特になし
 
 以下の形式に該当する場合に限り、問題を作成します。
 - 該当しない場合は、問題を作成しません。
@@ -10,6 +13,7 @@ markdown形式の解説
 - コードセルは既存のセルに # TODO を追記します。
 - 解説は簡潔さと分かりやすさを両立します。
 - print文は削除しないでください。
+- 冒頭に、1~2行で意図を解説します。
 
 形式
 出力 = インスタンス.メソッド(引数)
@@ -49,6 +53,8 @@ X_train, X_test, y_train, y_test = train_test_split(X_normalized, y, test_size =
 
 出力するmarkdownセルとコードセル
 ```markdown
+データをtrain/testペアに分割しましょう。
+
 ```python
 出力:  X_train, X_test, y_train, y_test（説明/目的変数のデータのtrain/testペア）
 関数: train_test_split
@@ -72,6 +78,8 @@ print_formatted_tensor("label_embed_linear", label_embed_linear)
 出力されるmarkdownセルとコードセル
 
 ```markdown
+ラベル埋め込みテンソルにを順伝播します。
+
 ```python
 出力: label_embed_linear（ラベル埋め込みテンソル）
 インスタンス: label_embedding
@@ -113,6 +121,7 @@ cosine_decay_ratio = 0.5 * (1.0 + cosine_decay_value)
 
 出力されるmarkdownセルとコードセル
 ```markdown
+コサイン減衰スケジュールの進捗率を計算します。最終的に、学習率を求めるのに使います。
 ```python
 出力: cosine_decay_ratio（コサイン減衰スケジュールの進捗率）
 式: 0.5 * (1.0 + cosine_decay_value)
