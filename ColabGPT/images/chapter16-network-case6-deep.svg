@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="720" viewBox="0 0 1400 720">
+  <style>
+    .title{font:700 28px sans-serif}.head{font:700 19px sans-serif}.node{fill:#e8f1fb;stroke:#2a78b7;stroke-width:4}.edge{stroke:#555;stroke-width:3.5;fill:none;marker-end:url(#a)}.n{font:25px sans-serif;text-anchor:middle}.small{font:16px sans-serif;text-anchor:middle;fill:#444}.weight{font:17px sans-serif;text-anchor:middle;fill:#bd5300}.note{font:17px sans-serif;text-anchor:middle;fill:#444}
+  </style>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#555"/></marker></defs>
+  <text x="700" y="42" class="title" text-anchor="middle">Case 6：3層・幅2のネットワーク</text>
+  <text x="350" y="85" class="head" text-anchor="middle">第1層</text><text x="700" y="85" class="head" text-anchor="middle">第2層</text><text x="1050" y="85" class="head" text-anchor="middle">第3層</text>
+  <ellipse class="node" cx="90" cy="365" rx="47" ry="62"/><text class="n" x="90" y="373">x</text><text class="small" x="90" y="455">入力</text>
+  <path class="edge" d="M137 350 L295 235"/><path class="edge" d="M137 380 L295 495"/><text class="weight" x="205" y="268">w=2, b=0</text><text class="weight" x="205" y="477">w=2, b=−1</text>
+  <ellipse class="node" cx="350" cy="220" rx="54" ry="60"/><ellipse class="node" cx="350" cy="510" rx="54" ry="60"/><text class="n" x="350" y="228">a₁</text><text class="n" x="350" y="518">a₂</text><text class="small" x="350" y="305">ReLU(2x)</text><text class="small" x="350" y="595">ReLU(2x − 1)</text>
+  <path class="edge" d="M404 220 L645 220"/><path class="edge" d="M404 220 L645 510"/><text class="weight" x="525" y="193">w=2, b=0</text><text class="weight" x="525" y="345">w=2, b=−1</text><text class="note" x="525" y="665">h₁ = a₁ − 2a₂</text>
+  <ellipse class="node" cx="700" cy="220" rx="54" ry="60"/><ellipse class="node" cx="700" cy="510" rx="54" ry="60"/><text class="n" x="700" y="228">b₁</text><text class="n" x="700" y="518">b₂</text><text class="small" x="700" y="305">ReLU(2h₁)</text><text class="small" x="700" y="595">ReLU(2h₁ − 1)</text>
+  <path class="edge" d="M754 220 L995 220"/><path class="edge" d="M754 220 L995 510"/><text class="weight" x="875" y="193">w=2, b=0</text><text class="weight" x="875" y="345">w=2, b=−1</text><text class="note" x="875" y="665">h₂ = b₁ − 2b₂</text>
+  <ellipse class="node" cx="1050" cy="220" rx="54" ry="60"/><ellipse class="node" cx="1050" cy="510" rx="54" ry="60"/><text class="n" x="1050" y="228">c₁</text><text class="n" x="1050" y="518">c₂</text><text class="small" x="1050" y="305">ReLU(2h₂)</text><text class="small" x="1050" y="595">ReLU(2h₂ − 1)</text>
+  <path class="edge" d="M1104 220 L1255 350"/><path class="edge" d="M1104 510 L1255 380"/><text class="weight" x="1170" y="265">w=1</text><text class="weight" x="1170" y="480">w=−2</text>
+  <ellipse class="node" cx="1310" cy="365" rx="47" ry="62"/><text class="n" x="1310" y="373">y</text><text class="small" x="1310" y="455">y = c₁ − 2c₂</text>
+  <text class="note" x="700" y="705">各層でReLUを2個使い、合計は6個。</text>
+</svg>

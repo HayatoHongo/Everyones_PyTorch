@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820">
+  <style>
+    .title{font:700 28px sans-serif}.head{font:700 19px sans-serif}.node{fill:#e8f1fb;stroke:#2a78b7;stroke-width:3}.edge{stroke:#555;stroke-width:2.4;fill:none;marker-end:url(#a)}.n{font:18px sans-serif;text-anchor:middle}.small{font:14px sans-serif;text-anchor:middle;fill:#444}.weight{font:15px sans-serif;text-anchor:middle;fill:#bd5300}.note{font:17px sans-serif;text-anchor:middle;fill:#444}
+  </style>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#555"/></marker></defs>
+  <text x="700" y="40" class="title" text-anchor="middle">Case 6：1隠れ層・幅8のネットワーク</text>
+  <text x="700" y="72" class="note">折れ目を直接置くため、隠れ層には8個のReLUが必要。</text>
+  <ellipse class="node" cx="90" cy="410" rx="47" ry="62"/><text class="n" x="90" y="418">x</text><text class="small" x="90" y="500">入力</text>
+  <text x="700" y="105" class="head" text-anchor="middle">隠れ層（ReLUが8個）</text>
+  <g>
+    <ellipse class="node" cx="700" cy="145" rx="46" ry="34"/><text class="n" x="700" y="151">r₀</text><text class="small" x="810" y="150">ReLU(x)</text><path class="edge" d="M137 400 L654 145"/><path class="edge" d="M746 145 L1253 395"/><text class="weight" x="400" y="255">w=1, b=0</text><text class="weight" x="1040" y="255">w=+8</text>
+    <ellipse class="node" cx="700" cy="225" rx="46" ry="34"/><text class="n" x="700" y="231">r₁</text><text class="small" x="820" y="230">ReLU(x − 1/8)</text><path class="edge" d="M137 402 L654 225"/><path class="edge" d="M746 225 L1253 400"/><text class="weight" x="400" y="315">w=1, b=−1/8</text><text class="weight" x="1040" y="330">w=−16</text>
+    <ellipse class="node" cx="700" cy="305" rx="46" ry="34"/><text class="n" x="700" y="311">r₂</text><text class="small" x="820" y="310">ReLU(x − 2/8)</text><path class="edge" d="M137 405 L654 305"/><path class="edge" d="M746 305 L1253 405"/><text class="weight" x="400" y="365">w=1, b=−2/8</text><text class="weight" x="1040" y="390">w=+16</text>
+    <ellipse class="node" cx="700" cy="385" rx="46" ry="34"/><text class="n" x="700" y="391">r₃</text><text class="small" x="820" y="390">ReLU(x − 3/8)</text><path class="edge" d="M137 410 L654 385"/><path class="edge" d="M746 385 L1253 410"/><text class="weight" x="400" y="400">w=1, b=−3/8</text><text class="weight" x="1040" y="410">w=−16</text>
+    <ellipse class="node" cx="700" cy="465" rx="46" ry="34"/><text class="n" x="700" y="471">r₄</text><text class="small" x="820" y="470">ReLU(x − 4/8)</text><path class="edge" d="M137 410 L654 465"/><path class="edge" d="M746 465 L1253 410"/><text class="weight" x="400" y="445">w=1, b=−4/8</text><text class="weight" x="1040" y="440">w=+16</text>
+    <ellipse class="node" cx="700" cy="545" rx="46" ry="34"/><text class="n" x="700" y="551">r₅</text><text class="small" x="820" y="550">ReLU(x − 5/8)</text><path class="edge" d="M137 415 L654 545"/><path class="edge" d="M746 545 L1253 415"/><text class="weight" x="400" y="505">w=1, b=−5/8</text><text class="weight" x="1040" y="490">w=−16</text>
+    <ellipse class="node" cx="700" cy="625" rx="46" ry="34"/><text class="n" x="700" y="631">r₆</text><text class="small" x="820" y="630">ReLU(x − 6/8)</text><path class="edge" d="M137 418 L654 625"/><path class="edge" d="M746 625 L1253 418"/><text class="weight" x="400" y="560">w=1, b=−6/8</text><text class="weight" x="1040" y="540">w=+16</text>
+    <ellipse class="node" cx="700" cy="705" rx="46" ry="34"/><text class="n" x="700" y="711">r₇</text><text class="small" x="820" y="710">ReLU(x − 7/8)</text><path class="edge" d="M137 420 L654 705"/><path class="edge" d="M746 705 L1253 420"/><text class="weight" x="400" y="615">w=1, b=−7/8</text><text class="weight" x="1040" y="595">w=−16</text>
+  </g>
+  <ellipse class="node" cx="1310" cy="410" rx="47" ry="62"/><text class="n" x="1310" y="418">y</text><text class="small" x="1310" y="500">出力</text>
+  <text class="note" x="700" y="790">各ノードの入力側の b はバイアス、出力側の w は出力への重み。</text>
+</svg>
