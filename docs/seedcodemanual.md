@@ -97,6 +97,7 @@ https://colab.research.google.com/drive/1_ozaYlXHGGSBap-s4LRBirZ9cG0tGRFQ?usp=sh
 次に、本題に入る。
 
 プロンプト
+```
 現在は異なるトピックで教材を作成している。
 スタート地点と終了地点が決まったので、その間にコードの中間状態を作る。
 基本的には、一つの段階につき、中心となる概念または実装を一つ追加する。
@@ -113,6 +114,7 @@ Chapter{i}のシードコードは、Chapter{i-1}のシードコードとの差�
 # 新しく追加した部分は ########## NEW ########## で囲む 
 # 不要になった部分は """DELETE\n code \n""" で囲む 例：
  """ DELETE code self.train_read_position = 0 """
+```
 
 ---
 
