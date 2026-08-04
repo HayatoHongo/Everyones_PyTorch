@@ -10,7 +10,7 @@
   </style>
   <defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto"><path d="M0,0 L0,8 L11,4 z" fill="#64748b"/></marker></defs>
   <rect width="1200" height="650" fill="white"/>
-  <text x="350" y="50" class="title">NeuralNetwork: 49 → 32 → 10</text>
+  <text x="350" y="50" class="title">NeuralNetwork: 49 → 25 → 10</text>
 
   <text x="110" y="105" class="label">Input X</text>
   <rect x="75" y="135" width="175" height="150" rx="16" class="box"/>
@@ -22,7 +22,7 @@
   <text x="266" y="240" class="small">z1 = XW1 + b1</text>
 
   <rect x="405" y="135" width="175" height="150" rx="16" class="box"/>
-  <text x="447" y="205" class="title">32</text>
+  <text x="447" y="205" class="title">25</text>
   <text x="433" y="245" class="small">hidden values</text>
 
   <line x1="585" y1="210" x2="700" y2="210" class="arrow"/>
@@ -31,7 +31,7 @@
 
   <rect x="715" y="135" width="175" height="150" rx="16" class="box"/>
   <text x="782" y="205" class="title">h</text>
-  <text x="744" y="245" class="small">32 features</text>
+  <text x="744" y="245" class="small">25 features</text>
 
   <line x1="895" y1="210" x2="1020" y2="210" class="arrow"/>
   <text x="914" y="180" class="small">W2, b2</text>
@@ -43,9 +43,9 @@
 
   <text x="80" y="350" class="label">What __init__ stores</text>
   <rect x="75" y="375" width="465" height="205" rx="12" class="code"/>
-  <text x="105" y="420" class="small">self.W1  : 49 × 32</text>
-  <text x="105" y="455" class="small">self.b1  : 32</text>
-  <text x="105" y="490" class="small">self.W2  : 32 × 10</text>
+  <text x="105" y="420" class="small">self.W1  : 49 × 25</text>
+  <text x="105" y="455" class="small">self.b1  : 25</text>
+  <text x="105" y="490" class="small">self.W2  : 25 × 10</text>
   <text x="105" y="525" class="small">self.b2  : 10</text>
   <text x="105" y="560" class="small">self.params = [W1, b1, W2, b2]</text>
 
