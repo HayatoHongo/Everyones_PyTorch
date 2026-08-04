@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520">
+  <style>text{font-family:Arial,sans-serif;fill:#172554}.t{font-size:25px;font-weight:bold}.s{font-size:17px}.in{fill:#dbeafe;stroke:#2563eb;stroke-width:1.5}.out{fill:#fef3c7;stroke:#d97706;stroke-width:2}.edge{stroke:#94a3b8;stroke-width:1;opacity:.35}</style>
+  <rect width="1100" height="520" fill="white"/>
+  <text x="395" y="40" class="t">Linear model: 49 → 10</text>
+  <text x="95" y="85" class="s">49 input pixels (7 × 7)</text>
+  <text x="815" y="85" class="s">10 scores</text>
+  <g class="edge"><path d="M300 140 L820 125"/><path d="M300 180 L820 165"/><path d="M300 220 L820 205"/><path d="M300 260 L820 245"/><path d="M300 300 L820 285"/><path d="M300 340 L820 325"/><path d="M300 380 L820 365"/><path d="M300 140 L820 405"/><path d="M300 380 L820 125"/></g>
+  <g class="in">
+    <circle cx="130" cy="140" r="11"/><circle cx="165" cy="140" r="11"/><circle cx="200" cy="140" r="11"/><circle cx="235" cy="140" r="11"/><circle cx="270" cy="140" r="11"/>
+    <circle cx="130" cy="190" r="11"/><circle cx="165" cy="190" r="11"/><circle cx="200" cy="190" r="11"/><circle cx="235" cy="190" r="11"/><circle cx="270" cy="190" r="11"/>
+    <circle cx="130" cy="240" r="11"/><circle cx="165" cy="240" r="11"/><circle cx="200" cy="240" r="11"/><circle cx="235" cy="240" r="11"/><circle cx="270" cy="240" r="11"/>
+    <circle cx="130" cy="290" r="11"/><circle cx="165" cy="290" r="11"/><circle cx="200" cy="290" r="11"/><circle cx="235" cy="290" r="11"/><circle cx="270" cy="290" r="11"/>
+    <circle cx="130" cy="340" r="11"/><circle cx="165" cy="340" r="11"/><circle cx="200" cy="340" r="11"/><circle cx="235" cy="340" r="11"/><circle cx="270" cy="340" r="11"/>
+    <circle cx="130" cy="390" r="11"/><circle cx="165" cy="390" r="11"/><circle cx="200" cy="390" r="11"/><circle cx="235" cy="390" r="11"/><circle cx="270" cy="390" r="11"/>
+    <circle cx="130" cy="440" r="11"/><circle cx="165" cy="440" r="11"/><circle cx="200" cy="440" r="11"/><circle cx="235" cy="440" r="11"/><circle cx="270" cy="440" r="11"/>
+  </g>
+  <text x="118" y="480" class="s">… 49 nodes</text>
+  <text x="470" y="255" class="t">W (49 × 10)</text><text x="470" y="285" class="s">all pixels connect to all scores</text>
+  <g class="out"><circle cx="850" cy="125" r="17"/><circle cx="850" cy="165" r="17"/><circle cx="850" cy="205" r="17"/><circle cx="850" cy="245" r="17"/><circle cx="850" cy="285" r="17"/><circle cx="850" cy="325" r="17"/><circle cx="850" cy="365" r="17"/><circle cx="850" cy="405" r="17"/></g>
+  <text x="884" y="130" class="s">Y₀</text><text x="884" y="170" class="s">Y₁</text><text x="884" y="210" class="s">Y₂</text><text x="884" y="250" class="s">⋮</text><text x="884" y="410" class="s">Y₉</text>
+</svg>
