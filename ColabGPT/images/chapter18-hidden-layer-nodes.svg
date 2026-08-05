@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="570" viewBox="0 0 1100 570" role="img" aria-labelledby="title desc">
+  <title id="title">Neural network with an input layer, hidden ReLU layer, and output layer</title>
+  <desc id="desc">Representative nodes show fully connected links from 49 input pixels through 25 hidden nodes to 10 output scores.</desc>
+  <defs>
+    <linearGradient id="left-edge" x1="0" x2="1"><stop stop-color="#60a5fa"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+    <linearGradient id="right-edge" x1="0" x2="1"><stop stop-color="#8b5cf6"/><stop offset="1" stop-color="#f59e0b"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0f172a" flood-opacity=".12"/></filter>
+    <style>
+      text { font-family: Arial, sans-serif; fill: #172554; }
+      .title { font-size: 28px; font-weight: 700; }
+      .label { font-size: 19px; font-weight: 700; }
+      .small { font-size: 16px; fill: #475569; }
+      .left { fill: #dbeafe; stroke: #2563eb; stroke-width: 2; }
+      .hidden { fill: #ede9fe; stroke: #7c3aed; stroke-width: 2; }
+      .right { fill: #fef3c7; stroke: #d97706; stroke-width: 2; }
+      .edge-left { fill: none; stroke: url(#left-edge); stroke-width: 1.5; opacity: .38; }
+      .edge-right { fill: none; stroke: url(#right-edge); stroke-width: 1.5; opacity: .38; }
+    </style>
+  </defs>
+  <rect width="1100" height="570" fill="white"/>
+  <text x="550" y="48" text-anchor="middle" class="title">49 → 25 → 10 neural network</text>
+  <text x="190" y="96" text-anchor="middle" class="label">Input pixels</text>
+  <text x="550" y="96" text-anchor="middle" class="label">Hidden layer</text>
+  <text x="900" y="96" text-anchor="middle" class="label">Class scores</text>
+  <text x="190" y="122" text-anchor="middle" class="small">49 values</text>
+  <text x="550" y="122" text-anchor="middle" class="small">25 nodes + ReLU</text>
+  <text x="900" y="122" text-anchor="middle" class="small">10 values</text>
+  <g class="edge-left">
+    <path d="M214 160 L526 160"/><path d="M214 160 L526 225"/><path d="M214 160 L526 290"/><path d="M214 160 L526 355"/><path d="M214 160 L526 420"/><path d="M214 160 L526 485"/>
+    <path d="M214 225 L526 160"/><path d="M214 225 L526 225"/><path d="M214 225 L526 290"/><path d="M214 225 L526 355"/><path d="M214 225 L526 420"/><path d="M214 225 L526 485"/>
+    <path d="M214 290 L526 160"/><path d="M214 290 L526 225"/><path d="M214 290 L526 290"/><path d="M214 290 L526 355"/><path d="M214 290 L526 420"/><path d="M214 290 L526 485"/>
+    <path d="M214 355 L526 160"/><path d="M214 355 L526 225"/><path d="M214 355 L526 290"/><path d="M214 355 L526 355"/><path d="M214 355 L526 420"/><path d="M214 355 L526 485"/>
+    <path d="M214 420 L526 160"/><path d="M214 420 L526 225"/><path d="M214 420 L526 290"/><path d="M214 420 L526 355"/><path d="M214 420 L526 420"/><path d="M214 420 L526 485"/>
+    <path d="M214 485 L526 160"/><path d="M214 485 L526 225"/><path d="M214 485 L526 290"/><path d="M214 485 L526 355"/><path d="M214 485 L526 420"/><path d="M214 485 L526 485"/>
+  </g>
+  <g class="edge-right">
+    <path d="M574 160 L876 160"/><path d="M574 160 L876 225"/><path d="M574 160 L876 290"/><path d="M574 160 L876 355"/><path d="M574 160 L876 420"/><path d="M574 160 L876 485"/>
+    <path d="M574 225 L876 160"/><path d="M574 225 L876 225"/><path d="M574 225 L876 290"/><path d="M574 225 L876 355"/><path d="M574 225 L876 420"/><path d="M574 225 L876 485"/>
+    <path d="M574 290 L876 160"/><path d="M574 290 L876 225"/><path d="M574 290 L876 290"/><path d="M574 290 L876 355"/><path d="M574 290 L876 420"/><path d="M574 290 L876 485"/>
+    <path d="M574 355 L876 160"/><path d="M574 355 L876 225"/><path d="M574 355 L876 290"/><path d="M574 355 L876 355"/><path d="M574 355 L876 420"/><path d="M574 355 L876 485"/>
+    <path d="M574 420 L876 160"/><path d="M574 420 L876 225"/><path d="M574 420 L876 290"/><path d="M574 420 L876 355"/><path d="M574 420 L876 420"/><path d="M574 420 L876 485"/>
+    <path d="M574 485 L876 160"/><path d="M574 485 L876 225"/><path d="M574 485 L876 290"/><path d="M574 485 L876 355"/><path d="M574 485 L876 420"/><path d="M574 485 L876 485"/>
+  </g>
+  <g filter="url(#shadow)">
+    <g class="left"><circle cx="190" cy="160" r="24"/><circle cx="190" cy="225" r="24"/><circle cx="190" cy="290" r="24"/><circle cx="190" cy="355" r="24"/><circle cx="190" cy="420" r="24"/><circle cx="190" cy="485" r="24"/></g>
+    <g class="hidden"><circle cx="550" cy="160" r="24"/><circle cx="550" cy="225" r="24"/><circle cx="550" cy="290" r="24"/><circle cx="550" cy="355" r="24"/><circle cx="550" cy="420" r="24"/><circle cx="550" cy="485" r="24"/></g>
+    <g class="right"><circle cx="900" cy="160" r="24"/><circle cx="900" cy="225" r="24"/><circle cx="900" cy="290" r="24"/><circle cx="900" cy="355" r="24"/><circle cx="900" cy="420" r="24"/><circle cx="900" cy="485" r="24"/></g>
+  </g>
+  <text x="228" y="166" class="small">x₁</text><text x="228" y="231" class="small">x₂</text><text x="228" y="296" class="small">x₃</text><text x="228" y="361" class="small">⋮</text><text x="228" y="426" class="small">x₄₈</text><text x="228" y="491" class="small">x₄₉</text>
+  <text x="588" y="166" class="small">h₁</text><text x="588" y="231" class="small">h₂</text><text x="588" y="296" class="small">h₃</text><text x="588" y="361" class="small">⋮</text><text x="588" y="426" class="small">h₂₄</text><text x="588" y="491" class="small">h₂₅</text>
+  <text x="938" y="166" class="small">Y₀</text><text x="938" y="231" class="small">Y₁</text><text x="938" y="296" class="small">Y₂</text><text x="938" y="361" class="small">⋮</text><text x="938" y="426" class="small">Y₈</text><text x="938" y="491" class="small">Y₉</text>
+</svg>
