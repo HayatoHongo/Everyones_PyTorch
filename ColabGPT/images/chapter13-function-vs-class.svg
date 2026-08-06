@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+  <style>text{font-family:Arial,sans-serif;fill:#172033} .t{font-size:24px;font-weight:bold}.s{font-size:19px}.box{stroke-width:3;rx:16}</style>
+  <rect width="900" height="300" fill="#f8fafc"/>
+  <text x="70" y="48" class="t">Function</text><text x="510" y="48" class="t">Class + method</text>
+  <rect x="40" y="75" width="210" height="95" class="box" fill="#dbeafe" stroke="#2563eb"/><text x="68" y="115" class="s">weight = 2.0</text><text x="68" y="145" class="s">x = 3.0</text>
+  <path d="M260 122h90" stroke="#475569" stroke-width="4"/><path d="M340 113l18 9-18 9" fill="#475569"/>
+  <rect x="370" y="75" width="130" height="95" class="box" fill="#dcfce7" stroke="#16a34a"/><text x="400" y="130" class="s">y = 6.0</text>
+  <rect x="480" y="75" width="180" height="95" class="box" fill="#ede9fe" stroke="#7c3aed"/><text x="505" y="115" class="s">model</text><text x="505" y="145" class="s">weight = 2.0</text>
+  <path d="M670 122h70" stroke="#475569" stroke-width="4"/><path d="M730 113l18 9-18 9" fill="#475569"/>
+  <rect x="755" y="75" width="110" height="95" class="box" fill="#dcfce7" stroke="#16a34a"/><text x="775" y="130" class="s">6.0</text>
+  <text x="90" y="225" class="s">model_linear(weight, x)</text><text x="500" y="225" class="s">model.forward(x)</text>
+</svg>

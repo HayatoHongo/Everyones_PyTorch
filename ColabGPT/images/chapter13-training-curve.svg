@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="390" viewBox="0 0 900 390">
+  <style>text{font-family:Arial,sans-serif;fill:#172033}.t{font-size:24px;font-weight:bold}.s{font-size:17px}.axis{stroke:#334155;stroke-width:3}.grid{stroke:#cbd5e1;stroke-width:1}</style><rect width="900" height="390" fill="#f8fafc"/>
+  <text x="55" y="45" class="t">Training: loss ↓ , weight → 2.0</text>
+  <line x1="80" y1="320" x2="820" y2="320" class="axis"/><line x1="80" y1="70" x2="80" y2="320" class="axis"/>
+  <line x1="80" y1="120" x2="820" y2="120" class="grid"/><line x1="80" y1="220" x2="820" y2="220" class="grid"/>
+  <text x="24" y="125" class="s">10</text><text x="32" y="225" class="s">5</text><text x="54" y="325" class="s">0</text><text x="755" y="355" class="s">step</text>
+  <polyline points="80,120 160,270 240,307 320,316 400,319 480,320 560,320 640,320 720,320 800,320" fill="none" stroke="#ef4444" stroke-width="5"/>
+  <polyline points="80,320 160,295 240,282 320,276 400,273 480,271 560,270 640,270 720,270 800,270" fill="none" stroke="#2563eb" stroke-width="5"/>
+  <circle cx="720" cy="78" r="7" fill="#ef4444"/><text x="737" y="84" class="s">loss</text><circle cx="720" cy="108" r="7" fill="#2563eb"/><text x="737" y="114" class="s">weight</text>
+  <text x="650" y="250" class="s">weight ≈ 2.0</text><text x="650" y="305" class="s">loss ≈ 0</text>
+</svg>

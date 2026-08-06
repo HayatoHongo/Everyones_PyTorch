@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330">
+  <style>text{font-family:Arial,sans-serif;fill:#172033}.t{font-size:24px;font-weight:bold}.s{font-size:18px}.b{stroke-width:3;rx:15}</style><rect width="900" height="330" fill="#f8fafc"/>
+  <rect x="45" y="105" width="150" height="100" class="b" fill="#dbeafe" stroke="#2563eb"/><text x="90" y="145" class="t">Y_pred</text><text x="98" y="175" class="s">[0, 0]</text>
+  <rect x="45" y="220" width="150" height="70" class="b" fill="#dcfce7" stroke="#16a34a"/><text x="107" y="264" class="t">Y</text><text x="96" y="286" class="s">[2, 4]</text>
+  <path d="M210 170h110" stroke="#475569" stroke-width="4"/><path d="M310 161l18 9-18 9" fill="#475569"/><text x="220" y="145" class="s">difference²</text>
+  <rect x="340" y="105" width="180" height="100" class="b" fill="#fef3c7" stroke="#d97706"/><text x="385" y="145" class="t">Losses</text><text x="388" y="175" class="s">[4, 16]</text>
+  <path d="M535 155h95" stroke="#475569" stroke-width="4"/><path d="M620 146l18 9-18 9" fill="#475569"/><text x="552" y="130" class="s">mean</text>
+  <rect x="650" y="105" width="190" height="100" class="b" fill="#fee2e2" stroke="#dc2626"/><text x="695" y="145" class="t">loss</text><text x="714" y="175" class="s">10.0</text>
+</svg>
