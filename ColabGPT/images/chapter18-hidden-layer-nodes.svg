@@ -46,7 +46,7 @@
     <g class="hidden"><circle cx="550" cy="160" r="24"/><circle cx="550" cy="225" r="24"/><circle cx="550" cy="290" r="24"/><circle cx="550" cy="355" r="24"/><circle cx="550" cy="420" r="24"/><circle cx="550" cy="485" r="24"/></g>
     <g class="right"><circle cx="900" cy="160" r="24"/><circle cx="900" cy="225" r="24"/><circle cx="900" cy="290" r="24"/><circle cx="900" cy="355" r="24"/><circle cx="900" cy="420" r="24"/><circle cx="900" cy="485" r="24"/></g>
   </g>
-  <text x="228" y="166" class="small">x₁</text><text x="228" y="231" class="small">x₂</text><text x="228" y="296" class="small">x₃</text><text x="228" y="361" class="small">⋮</text><text x="228" y="426" class="small">x₄₈</text><text x="228" y="491" class="small">x₄₉</text>
-  <text x="588" y="166" class="small">h₁</text><text x="588" y="231" class="small">h₂</text><text x="588" y="296" class="small">h₃</text><text x="588" y="361" class="small">⋮</text><text x="588" y="426" class="small">h₂₄</text><text x="588" y="491" class="small">h₂₅</text>
+  <text x="228" y="166" class="small">x₀</text><text x="228" y="231" class="small">x₁</text><text x="228" y="296" class="small">x₂</text><text x="228" y="361" class="small">⋮</text><text x="228" y="426" class="small">x₄₇</text><text x="228" y="491" class="small">x₄₈</text>
+  <text x="588" y="166" class="small">h₀</text><text x="588" y="231" class="small">h₁</text><text x="588" y="296" class="small">h₂</text><text x="588" y="361" class="small">⋮</text><text x="588" y="426" class="small">h₂₃</text><text x="588" y="491" class="small">h₂₄</text>
   <text x="938" y="166" class="small">Y₀</text><text x="938" y="231" class="small">Y₁</text><text x="938" y="296" class="small">Y₂</text><text x="938" y="361" class="small">⋮</text><text x="938" y="426" class="small">Y₈</text><text x="938" y="491" class="small">Y₉</text>
 </svg>
