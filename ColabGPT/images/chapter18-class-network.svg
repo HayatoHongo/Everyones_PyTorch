@@ -19,7 +19,7 @@
 
   <line x1="255" y1="210" x2="390" y2="210" class="arrow"/>
   <text x="276" y="180" class="small">W1, b1</text>
-  <text x="266" y="240" class="small">z1 = XW1 + b1</text>
+  <text x="266" y="240" class="small">z = XW1 + b1</text>
 
   <rect x="405" y="135" width="175" height="150" rx="16" class="box"/>
   <text x="447" y="205" class="title">25</text>
@@ -51,8 +51,8 @@
 
   <text x="650" y="350" class="label">What forward(X) does</text>
   <rect x="645" y="375" width="475" height="205" rx="12" class="code"/>
-  <text x="675" y="425" class="small">1. z1 = X @ self.W1 + self.b1</text>
-  <text x="675" y="470" class="small">2. h = torch.relu(z1)</text>
+  <text x="675" y="425" class="small">1. z = X @ self.W1 + self.b1</text>
+  <text x="675" y="470" class="small">2. h = torch.relu(z)</text>
   <text x="675" y="515" class="small">3. Y_pred = h @ self.W2 + self.b2</text>
   <text x="675" y="560" class="small">4. return Y_pred</text>
 </svg>
