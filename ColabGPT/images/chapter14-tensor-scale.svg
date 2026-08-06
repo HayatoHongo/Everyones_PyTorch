@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
+  <style>text{font-family:Arial,sans-serif;fill:#172033}.t{font-size:23px;font-weight:bold}.s{font-size:18px}.n{font-size:23px;font-weight:bold}.box{stroke:#334155;stroke-width:2;rx:12}</style>
+  <rect width="900" height="260" fill="#f8fafc"/><text x="35" y="42" class="t">Y = weight × X</text>
+  <rect x="50" y="75" width="175" height="145" fill="#dcfce7" class="box"/><text x="105" y="105" class="s">X</text><text x="90" y="145" class="n">[1.0]</text><text x="90" y="185" class="n">[2.0]</text>
+  <text x="260" y="160" class="n">× 0.0</text><path d="M395 145h100" stroke="#475569" stroke-width="3"/><path d="m495 145-14-9v18z" fill="#475569"/>
+  <rect x="535" y="75" width="175" height="145" fill="#fef3c7" class="box"/><text x="590" y="105" class="s">Y</text><text x="575" y="145" class="n">[0.0]</text><text x="575" y="185" class="n">[0.0]</text>
+</svg>

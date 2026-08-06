@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
+  <style>text{font-family:Arial,sans-serif;fill:#172033}.t{font-size:24px;font-weight:bold}.s{font-size:20px}.n{font-size:28px;font-weight:bold}.box{stroke:#334155;stroke-width:2;rx:14}</style>
+  <rect width="900" height="260" fill="#f8fafc"/>
+  <text x="40" y="45" class="t">forward(x) = weight × x</text>
+  <rect x="45" y="85" width="180" height="120" fill="#dbeafe" class="box"/><text x="88" y="125" class="s">weight</text><text x="115" y="170" class="n">2.0</text>
+  <text x="255" y="155" class="n">×</text>
+  <rect x="310" y="85" width="180" height="120" fill="#dcfce7" class="box"/><text x="380" y="125" class="s">x</text><text x="378" y="170" class="n">3.0</text>
+  <path d="M520 145h105" stroke="#475569" stroke-width="3"/><path d="m625 145-14-9v18z" fill="#475569"/>
+  <rect x="660" y="85" width="180" height="120" fill="#fef3c7" class="box"/><text x="720" y="125" class="s">y</text><text x="728" y="170" class="n">6.0</text>
+</svg>
