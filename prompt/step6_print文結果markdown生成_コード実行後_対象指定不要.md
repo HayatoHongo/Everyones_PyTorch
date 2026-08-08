@@ -66,7 +66,6 @@ print_formatted_tensor("attention_weights_before_mask", attention_weights_before
 <label><input type="checkbox">↓以下と答えが一致したらチェックをつける</label>
 
 
-```
 attention_weights_before_mask
 Tensor Size: [1, 3, 3]
 tensor([
@@ -76,6 +75,7 @@ tensor([
           [ -0.15,   0.08,   0.05]
         ]
       ])
+```
 
 例3: 極端に大きなテンソルの場合
 
@@ -83,12 +83,15 @@ tensor([
 X = data["X"]  # TODO: 出力 = 式
 print_formatted_tensor("X", X)
 ```
+X
+Tensor Size: [1000, 49]
+tensor([
+         [  0.00,   0.00,   0.00,   0.00, ....
+         .....
 
+出力markdownセル
 ```markdown
 **`Check Point`**
-
-<label><input type="checkbox"> テンソルのサイズを確認 [1000, 49]</label>
+<label><input type="checkbox"> テンソルのサイズを確認 (1000, 49)</label>
 ```
 
-```
-```
