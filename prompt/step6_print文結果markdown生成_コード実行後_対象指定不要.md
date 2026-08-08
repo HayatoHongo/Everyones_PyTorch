@@ -92,6 +92,6 @@ tensor([
 出力markdownセル
 ```markdown
 **`Check Point`**
-<label><input type="checkbox"> テンソルのサイズを確認 (1000, 49)</label>
+<label><input type="checkbox"> テンソルのサイズを確認 [1000, 49]</label>
 ```
 
