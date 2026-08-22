@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="390" viewBox="0 0 1080 390" role="img" aria-labelledby="title desc">
+  <title id="title">Autoencoder architecture: 49 to 16 to 2 to 16 to 49</title>
+  <desc id="desc">A 7 by 7 input grid is compressed through layers with 49, 16, and 2 units, then expanded through 16 and 49 units to a reconstructed 7 by 7 grid.</desc>
+  <defs>
+    <linearGradient id="in" x1="0" x2="1"><stop stop-color="#dbeafe"/><stop offset="1" stop-color="#bfdbfe"/></linearGradient>
+    <linearGradient id="code" x1="0" x2="1"><stop stop-color="#fef3c7"/><stop offset="1" stop-color="#fde68a"/></linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#94a3b8"/></marker>
+    <style>.edge{stroke:#cbd5e1;stroke-width:2;marker-end:url(#arrow)}.node{stroke:#2563eb;stroke-width:2}.num{font:600 20px Arial,sans-serif;fill:#334155;text-anchor:middle}.symbol{font:italic 25px Georgia,serif;fill:#334155;text-anchor:middle}.grid{stroke:#475569;stroke-width:1}.caption{font:17px Arial,sans-serif;fill:#64748b;text-anchor:middle}</style>
+  </defs>
+  <rect width="1080" height="390" rx="18" fill="#fff"/>
+  <g class="grid">
+    <rect x="40" y="116" width="140" height="140" fill="url(#in)"/>
+    <path d="M60 116v140M80 116v140M100 116v140M120 116v140M140 116v140M160 116v140M40 136h140M40 156h140M40 176h140M40 196h140M40 216h140M40 236h140"/>
+  </g>
+  <g class="grid">
+    <rect x="900" y="116" width="140" height="140" fill="url(#in)"/>
+    <path d="M920 116v140M940 116v140M960 116v140M980 116v140M1000 116v140M1020 116v140M900 136h140M900 156h140M900 176h140M900 196h140M900 216h140M900 236h140"/>
+  </g>
+  <g fill="none" class="edge"><path d="M190 186H244"/><path d="M330 186H384"/><path d="M470 186H524"/><path d="M610 186H664"/><path d="M750 186H890"/></g>
+  <g class="node" fill="url(#in)"><rect x="244" y="65" width="86" height="242" rx="43"/><rect x="384" y="92" width="86" height="188" rx="43"/><rect x="664" y="92" width="86" height="188" rx="43"/><rect x="804" y="65" width="86" height="242" rx="43"/></g>
+  <g class="node" fill="url(#code)"><rect x="524" y="142" width="86" height="88" rx="43"/></g>
+  <g fill="#2563eb"><circle cx="287" cy="98" r="7"/><circle cx="287" cy="130" r="7"/><circle cx="287" cy="162" r="7"/><circle cx="287" cy="194" r="7"/><circle cx="287" cy="226" r="7"/><circle cx="287" cy="258" r="7"/><circle cx="287" cy="290" r="7"/><circle cx="427" cy="124" r="7"/><circle cx="427" cy="164" r="7"/><circle cx="427" cy="204" r="7"/><circle cx="427" cy="244" r="7"/><circle cx="707" cy="124" r="7"/><circle cx="707" cy="164" r="7"/><circle cx="707" cy="204" r="7"/><circle cx="707" cy="244" r="7"/><circle cx="847" cy="98" r="7"/><circle cx="847" cy="130" r="7"/><circle cx="847" cy="162" r="7"/><circle cx="847" cy="194" r="7"/><circle cx="847" cy="226" r="7"/><circle cx="847" cy="258" r="7"/><circle cx="847" cy="290" r="7"/></g>
+  <g fill="#b45309"><circle cx="567" cy="170" r="8"/><circle cx="567" cy="202" r="8"/></g>
+  <text class="symbol" x="110" y="294">x</text><text class="symbol" x="567" y="274">z</text><text class="symbol" x="970" y="294">x̂</text>
+  <text class="num" x="287" y="340">49</text><text class="num" x="427" y="340">16</text><text class="num" x="567" y="340">2</text><text class="num" x="707" y="340">16</text><text class="num" x="847" y="340">49</text>
+  <text class="caption" x="110" y="92">7 × 7</text><text class="caption" x="970" y="92">7 × 7</text>
+</svg>
