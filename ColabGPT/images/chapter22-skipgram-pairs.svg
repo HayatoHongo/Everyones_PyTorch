@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280">
+ <rect width="900" height="280" fill="#fff"/><g font-family="Arial, sans-serif" text-anchor="middle">
+ <g fill="#f8fafc" stroke="#94a3b8" stroke-width="2"><rect x="90" y="55" width="120" height="52" rx="9"/><rect x="240" y="55" width="120" height="52" rx="9"/><rect x="540" y="55" width="120" height="52" rx="9"/><rect x="690" y="55" width="120" height="52" rx="9"/></g>
+ <rect x="390" y="55" width="120" height="52" rx="9" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
+ <g font-size="21"><text x="150" y="88" fill="#334155">the</text><text x="300" y="88" fill="#334155">old</text><text x="450" y="88" fill="#78350f">king</text><text x="600" y="88" fill="#334155">is</text><text x="750" y="88" fill="#334155">dead</text></g>
+ <g stroke="#64748b" stroke-width="2"><path d="M450 118L150 185"/><path d="M450 118L300 185"/><path d="M450 118L600 185"/><path d="M450 118L750 185"/></g>
+ <g fill="#eff6ff" stroke="#2563eb" stroke-width="2"><rect x="90" y="190" width="120" height="50" rx="9"/><rect x="240" y="190" width="120" height="50" rx="9"/><rect x="540" y="190" width="120" height="50" rx="9"/><rect x="690" y="190" width="120" height="50" rx="9"/></g>
+ <g font-size="20" fill="#1e3a8a"><text x="150" y="222">the</text><text x="300" y="222">old</text><text x="600" y="222">is</text><text x="750" y="222">dead</text></g>
+ </g></svg>

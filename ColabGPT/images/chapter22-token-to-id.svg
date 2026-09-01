@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
+ <rect width="900" height="260" fill="#fff"/><g font-family="Arial, sans-serif" text-anchor="middle">
+ <text x="450" y="42" font-size="24" fill="#334155">the king is dead</text>
+ <g fill="#eff6ff" stroke="#2563eb" stroke-width="2"><rect x="150" y="75" width="130" height="52" rx="9"/><rect x="310" y="75" width="130" height="52" rx="9"/><rect x="470" y="75" width="130" height="52" rx="9"/><rect x="630" y="75" width="130" height="52" rx="9"/></g>
+ <g font-size="20" fill="#1e3a8a"><text x="215" y="108">the</text><text x="375" y="108">king</text><text x="535" y="108">is</text><text x="695" y="108">dead</text></g>
+ <g stroke="#64748b" stroke-width="2"><path d="M215 137v32"/><path d="M375 137v32"/><path d="M535 137v32"/><path d="M695 137v32"/></g>
+ <g fill="#fff7ed" stroke="#ea580c" stroke-width="2"><rect x="170" y="177" width="90" height="48" rx="8"/><rect x="330" y="177" width="90" height="48" rx="8"/><rect x="490" y="177" width="90" height="48" rx="8"/><rect x="650" y="177" width="90" height="48" rx="8"/></g>
+ <g font-size="20" fill="#7c2d12"><text x="215" y="208">0</text><text x="375" y="208">33</text><text x="535" y="208">10</text><text x="695" y="208">222</text></g>
+ </g></svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360">
+ <rect width="760" height="360" fill="#fff"/><g font-family="Arial, sans-serif" text-anchor="middle">
+ <g stroke="#cbd5e1" stroke-width="2" stroke-dasharray="7 7"><path d="M145 260H550"/><path d="M300 110H705"/></g>
+ <g fill="#2563eb"><circle cx="145" cy="260" r="9"/><circle cx="300" cy="110" r="9"/></g><g fill="#16a34a"><circle cx="550" cy="260" r="9"/><circle cx="705" cy="110" r="9"/></g>
+ <g font-size="22"><text x="145" y="296" fill="#1d4ed8">man</text><text x="300" y="87" fill="#1d4ed8">woman</text><text x="550" y="296" fill="#15803d">king</text><text x="705" y="87" fill="#15803d">queen</text></g>
+ <path d="M160 245L284 125M565 245L689 125" stroke="#475569" stroke-width="4"/><path d="M275 127l15-5-5 15M680 127l15-5-5 15" fill="#475569"/>
+ </g></svg>

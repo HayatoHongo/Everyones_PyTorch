@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="380" viewBox="0 0 620 380">
+ <rect width="620" height="380" fill="#fff"/><g font-family="Arial, sans-serif" text-anchor="middle">
+ <circle cx="310" cy="205" r="135" fill="none" stroke="#cbd5e1" stroke-width="2"/><circle cx="310" cy="205" r="5" fill="#334155"/>
+ <path d="M310 205L398 103" stroke="#2563eb" stroke-width="5"/><path d="M310 205L437 158" stroke="#16a34a" stroke-width="5"/><path d="M310 205L195 133" stroke="#dc2626" stroke-width="5"/>
+ <g font-size="20"><text x="414" y="99" fill="#1d4ed8">king</text><text x="454" y="157" fill="#15803d">queen</text><text x="180" y="128" fill="#b91c1c">bread</text></g>
+ <path d="M389 119 A125 125 0 0 1 423 160" fill="none" stroke="#475569" stroke-width="2"/>
+ </g></svg>
