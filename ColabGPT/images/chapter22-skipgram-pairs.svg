@@ -1,9 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280">
- <rect width="900" height="280" fill="#fff"/><g font-family="Arial, sans-serif" text-anchor="middle">
- <g fill="#f8fafc" stroke="#94a3b8" stroke-width="2"><rect x="90" y="55" width="120" height="52" rx="9"/><rect x="240" y="55" width="120" height="52" rx="9"/><rect x="540" y="55" width="120" height="52" rx="9"/><rect x="690" y="55" width="120" height="52" rx="9"/></g>
- <rect x="390" y="55" width="120" height="52" rx="9" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
- <g font-size="21"><text x="150" y="88" fill="#334155">the</text><text x="300" y="88" fill="#334155">old</text><text x="450" y="88" fill="#78350f">king</text><text x="600" y="88" fill="#334155">is</text><text x="750" y="88" fill="#334155">dead</text></g>
- <g stroke="#64748b" stroke-width="2"><path d="M450 118L150 185"/><path d="M450 118L300 185"/><path d="M450 118L600 185"/><path d="M450 118L750 185"/></g>
- <g fill="#eff6ff" stroke="#2563eb" stroke-width="2"><rect x="90" y="190" width="120" height="50" rx="9"/><rect x="240" y="190" width="120" height="50" rx="9"/><rect x="540" y="190" width="120" height="50" rx="9"/><rect x="690" y="190" width="120" height="50" rx="9"/></g>
- <g font-size="20" fill="#1e3a8a"><text x="150" y="222">the</text><text x="300" y="222">old</text><text x="600" y="222">is</text><text x="750" y="222">dead</text></g>
- </g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="590" viewBox="0 0 1100 590">
+<rect width="1100" height="590" fill="white"/><style>text{font-family:Arial,'Noto Sans JP',sans-serif;fill:#172554}.c{font-family:Consolas,monospace}.s{font-size:16px}.l{font-size:18px;font-weight:bold}.f{font-size:18px}.t{font-size:22px;font-weight:bold}</style>
+<text x="60" y="48" class="l">ids</text><text x="108" y="48" class="c f">= [ a, b, c, d, e, f ]</text>
+<g class="t" text-anchor="middle"><rect x="160" y="72" width="70" height="48" rx="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/><text x="195" y="103">a</text><rect x="242" y="72" width="70" height="48" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/><text x="277" y="103">b</text><rect x="324" y="72" width="70" height="48" rx="8" fill="#ccfbf1" stroke="#0f766e" stroke-width="2"/><text x="359" y="103">c</text><rect x="406" y="72" width="70" height="48" rx="8" fill="#ccfbf1" stroke="#0f766e" stroke-width="2"/><text x="441" y="103">d</text><rect x="488" y="72" width="70" height="48" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/><text x="523" y="103">e</text><rect x="570" y="72" width="70" height="48" rx="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/><text x="605" y="103">f</text></g>
+<text x="690" y="96" class="s">青: offset = 1</text><text x="690" y="120" class="s">緑: offset = 2</text><text x="60" y="157" class="s">window_size = 2 なら、offset = 1 と 2 を順に使う</text>
+<path d="M550 178V205M542 197l8 8 8-8" fill="none" stroke="#64748b" stroke-width="2.5"/>
+<rect x="55" y="220" width="990" height="198" rx="14" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/><text x="80" y="251" class="l">各 offset で追加する列</text><path d="M80 266H1020M80 344H1020" stroke="#cbd5e1"/>
+<text x="90" y="300" class="c f">offset = 1</text><text x="275" y="300" class="c f">ids[:-1] → center_list</text><text x="650" y="300" class="c f">ids[1:] → context_list</text><text x="275" y="326" class="c f">[ a, b, c, d, e ]</text><text x="650" y="326" class="c f">[ b, c, d, e, f ]</text>
+<text x="90" y="378" class="c f">offset = 2</text><text x="275" y="378" class="c f">ids[:-2] → center_list</text><text x="650" y="378" class="c f">ids[2:] → context_list</text><text x="275" y="404" class="c f">[ a, b, c, d ]</text><text x="650" y="404" class="c f">[ c, d, e, f ]</text>
+<path d="M550 432V458M542 450l8 8 8-8" fill="none" stroke="#64748b" stroke-width="2.5"/><text x="575" y="449" class="c s">torch.cat(...)</text>
+<rect x="55" y="474" width="990" height="82" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/><text x="80" y="506" class="c l">X</text><text x="110" y="506" class="c f">= [ a, b, c, d, e, a, b, c, d ]</text><text x="80" y="536" class="c l">y</text><text x="110" y="536" class="c f">= [ b, c, d, e, f, c, d, e, f ]</text><text x="760" y="521" class="s">同じ位置が1つの訓練ペア</text>
+</svg>
